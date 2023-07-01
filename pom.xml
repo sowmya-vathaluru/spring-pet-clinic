@@ -552,12 +552,12 @@
             <url>https://repo.spring.io/milestone</url>
         </repository>
     </repositories>
-    <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>ip-172-31-1-120.ap-south-1.compute.internal-releases</name>
-        <url>http://3.6.67.84:8082/artifactory/libs-release-local</url>
-    </repository>
+   <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-1-120.ap-south-1.compute.internal-snapshots</name>
+        <url>http://3.6.67.84:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
    </distributionManagement>
 
 </project>
